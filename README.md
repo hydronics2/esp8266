@@ -1,4 +1,4 @@
-Compiled fadushin's uhttpd files into file.bin and added a test html file and js file. 
+Built micropython firmware including fadushin's webserver module UHTTPD into file.bin to flash to an ESP8266. So many js libraries around to make super fun user interfaces for your hardware. I included smoothie.js in the file WWW to try out...
 
 Flash the compiled versionn onto your ESP8266 using esptool.py
 
