@@ -5,6 +5,10 @@ Flash the compiled versionn onto your ESP8266 using esptool.py
 
 <code>esptool.py --port COM16 --baud 460800 write_flash --flash_size=detect 0 C:/file.bin</code>
 
+Then use ampy or webrepl to move the www folder and files onto your board: https://learn.adafruit.com/micropython-basics-load-files-and-run-code/file-operations
+
+<code>ampy --port COM16 put C:/esp/www</code>
+
 
 
 <code>>>> import uhttpd</code>
