@@ -9,7 +9,7 @@ Then use ampy or webrepl to move the www folder and files onto your board: https
 
 <code>ampy --port COM16 put C:/esp/www</code>
 
-
+Finally you can use a serial monitor, webrepl, puTTy or the like to start typing python commands....
 
 <code>>>> import uhttpd</code>
 
