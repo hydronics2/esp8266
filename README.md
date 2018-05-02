@@ -1,4 +1,4 @@
-Compiled fasushin's uhttpd files into file.bin and added a test html file and js file. 
+Compiled fadushin's uhttpd files into file.bin and added a test html file and js file. 
 
 Flash the compiled versionn onto your ESP8266 using esptool.py
 
