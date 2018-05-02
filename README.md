@@ -3,11 +3,11 @@ Compiled fasushin's uhttpd files int file.bin and added a test html file and js 
 
 
 <code>
->>> import uhttpd
+>>> import uhttpd</code>
 
->>> import uhttpd.file_handler
+<code>>>> import uhttpd.file_handler</code>
 
->>> server = uhttpd.Server([('/', uhttpd.file_handler.Handler('/www'))])
+<code>>>> server = uhttpd.Server([('/', uhttpd.file_handler.Handler('/www'))])</code>
 
->>> server.run()
-</code>
+<code>>>> server.run()</code>
+
